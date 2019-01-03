@@ -1,5 +1,5 @@
 #!/bin/bash
-# version 1.1
+# version 1.2
 # Script to build a student dev server on Ubuntu running under Oracle Virtual Box
 # Oracle Virtual Box must be setup on a Windows 10 machine and Ubuntu must also be setup.
 # Run this script after Ubuntu is setup
@@ -24,7 +24,8 @@ echo
 clear
 getAccountInfo
 echo User Account being used is $uservar
-
+killall VBoxClient
+VBoxClient-all
 echo  -------------Updating Linux------------- 
 apt --yes --force-yes -q  update || error_exit "Aborting - Cannot execute apt update!"
 apt --yes --force-yes -q --show-progress  full-upgrade || error_exit "Aborting - Cannot execute apt upgrade!"
