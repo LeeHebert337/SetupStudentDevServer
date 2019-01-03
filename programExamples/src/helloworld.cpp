@@ -1,5 +1,6 @@
 /*
 
+
 Simple program written in C++
 
 to compile on a Linux machine run command    
