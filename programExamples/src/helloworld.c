@@ -1,6 +1,15 @@
+/*
+Simple program written in C
+to compile on a Linux machine run command    
+		 gcc helloworld.c -o cHelloWorld
+to execute on a Linux machine run command
+		chmod +x cHelloWorld
+		.\cHelloWorld
+
+*/
 #include <stdio.h>
 int main(int argc, char *argv[])
 {
-   printf("Hello, World from C.");
+   printf("Hello, World from C.\n");
    return 0;
 }
