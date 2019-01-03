@@ -3,16 +3,10 @@
 Simple program written in C++
 
 to compile on a Linux machine run command    
-
 		 g++ helloworld.cpp -o cppHelloWorld
 
 to execute on a Linux machine run command
-
-		chmod +x cppHelloWorld
-
 		.\cppHelloWorld
-
-
 
 */
 
