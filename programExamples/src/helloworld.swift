@@ -4,4 +4,4 @@
 //		swift helloworld.swift
 //
 import Swift
-print("Hello, World!")
+print("Hello, World from Swift")
