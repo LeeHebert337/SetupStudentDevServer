@@ -20,7 +20,7 @@
  				This is the actual PHP program to print hello world with some HTML around it.  Notice the comment indicators changes between 
  				the top comments and this one
  		*/
- 		echo '<p><h1><center><font color="red">Hello World</font></center></h1></p>'; 
+ 		echo '<p><h1><center><font color="red">Hello World from PHP</font></center></h1></p>'; 
  		
  	?> 
  		
