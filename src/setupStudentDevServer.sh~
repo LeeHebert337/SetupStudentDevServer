@@ -197,7 +197,7 @@ echo -------------Install Scala Language-------------
 apt --yes --force-yes -q install scala || error_exit "Aborting - Cannot install Scala!"
 
 echo -------------Install GIT Tool-------------
-apt --yes --force-yes -q install git git-all|| error_exit "Aborting - Cannot install GIT!"
+apt --yes --force-yes -q install git || error_exit "Aborting - Cannot install GIT!"
 snap install --classic hub
 
 echo -------------Install Python PIP Tool-------------
